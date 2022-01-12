@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- topbar -->
+    <section class="topBar py-2 bg-dark">
+      <div class="container-fluid">
+        <button class="btn menuBtn">
+          <i class="fa fa-bars text-white"></i>
+        </button>
+        <a href="" class="">
+          <img src="img/logo.png" class="img-fluid logo" alt="" />
+        </a>
+      </div>
+    </section>
+    <!-- topbar -->
+
+    <!-- main body -->
+    <section class="mainBody">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 px-0 bg-dark">
+            <div class="options">
+              <div class="option option--texture">
+                <label for="control_7280" class="controlTitle p-0">
+                  <div class="btn optionBtn">
+                    Seleziona il piano
+                  </div>
+                </label>
+                <div class="option__control">
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/calacatta-oro.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="0"
+                      data-option="0"
+                      checked=""
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Calacatta oro
+                    </span> -->
+                    <span class="texture__name">Calacatta oro</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/aosta-green-marble.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="1"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Aosta green
+                    </span> -->
+                    <span class="texture__name">Aosta green</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/tyrol-stone.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="2"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Tyrol stone
+                    </span> -->
+                    <span class="texture__name">Tyrol stone</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/sahara-noir.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="3"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Sahara noir
+                    </span> -->
+                    <span class="texture__name">Sahara noir</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/onice-giada.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="4"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Onice Giada
+                    </span> -->
+                    <span class="texture__name">Onice Giada</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/travertino.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="5"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Travertino
+                    </span> -->
+                    <span class="texture__name">Travertino</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/statuario-light.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="6"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Statuario
+                    </span> -->
+                    <span class="texture__name">Statuario</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/calacatta-grey.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_7280"
+                      value="7"
+                      data-option="0"
+                    />
+                    <!-- <span class="texture__preview text-white">
+                      Calacatta Grey
+                    </span> -->
+                    <span class="texture__name">Calacatta Grey</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                </div>
+              </div>
+              <div class="option option--texture">
+                <label for="control_107" class="m-0 p-0">
+                  <div class="btn optionBtn">
+                    Finitura base
+                  </div>
+                </label>
+                <div class="option__control">
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/cuoio.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_107"
+                      value="0"
+                      data-option="1"
+                      checked=""
+                    />
+                    <!-- <span class="texture__preview">
+                      <img
+                        src="https://www.maacmarmi.it/marco/cuoio.jpg?preview"
+                        width="100"
+                        height="100"
+                        alt="Efetto cuoio"
+                      />
+                    </span> -->
+                    <span class="texture__name">Efetto cuoio</span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/acciaio_satinato.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_107"
+                      value="1"
+                      data-option="1"
+                    />
+                    <!-- <span class="texture__preview">
+                      <img
+                        src="https://www.maacmarmi.it/marco/acciaio_satinato.jpg?preview"
+                        width="100"
+                        height="100"
+                        alt="Acciaio satinato "
+                      />
+                    </span> -->
+                    <span class="texture__name">Acciaio satinato </span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                  <label
+                    class="texture"
+                    data-url="https://www.maacmarmi.it/marco/oro.jpg"
+                  >
+                    <input
+                      type="radio"
+                      name="control_107"
+                      value="2"
+                      data-option="1"
+                    />
+                    <!-- <span class="texture__preview">
+                      <img
+                        src="https://www.maacmarmi.it/marco/oro.jpg?preview"
+                        width="100"
+                        height="100"
+                        alt="Grigio "
+                      /> -->
+                    </span>
+                    <span class="texture__name">Grigio </span>
+                    <i class="fa fa-check-circle text-success"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-9 p-0">
+            <iframe
+              src="https://sketchfab.com/models/034269484b23464683cb8fde4de03b15/embed?api_version=1.3.2&amp;api_id=1_api-frame&amp;graph_optimizer=0&amp;camera=0&amp;preload=1&amp;ui_controls=0&amp;ui_infos=0&amp;ui_watermark=0"
+              id="api-frame"
+              allowfullscreen=""
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              allow="vr"
+              width="100%"
+              height="600"
+              class="js-started js-ready"
+              andbox="allow-scripts allow-same-origin allow-popups allow-forms"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main body -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- sketchfab -->
+    <script
+      type="text/javascript"
+      src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://www.maacmarmi.it/configuratore/SketchfabConfigurator-1.0.6.js"
+    ></script>
+
+    <script type="text/javascript">
+      var config = {
+        model: "034269484b23464683cb8fde4de03b15",
+        params: {
+          camera: 0,
+          preload: 1,
+          ui_controls: 0,
+          ui_infos: 0,
+          ui_watermark: 0,
+        },
+        config: [
+          {
+            name: "Seleziona il piano",
+            material: "top",
+            channels: ["AlbedoPBR"],
+            type: "texture",
+            options: [
+              {
+                name: "Calacatta oro",
+                url: "https://www.maacmarmi.it/marco/calacatta-oro.jpg",
+              },
+              {
+                name: "Aosta green",
+                url: "https://www.maacmarmi.it/marco/aosta-green-marble.jpg",
+              },
+              {
+                name: "Tyrol stone",
+                url: "https://www.maacmarmi.it/marco/tyrol-stone.jpg",
+              },
+              {
+                name: "Sahara noir",
+                url: "https://www.maacmarmi.it/marco/sahara-noir.jpg",
+              },
+              {
+                name: "Onice Giada",
+                url: "https://www.maacmarmi.it/marco/onice-giada.jpg",
+              },
+              {
+                name: "Travertino",
+                url: "https://www.maacmarmi.it/marco/travertino.jpg",
+              },
+              {
+                name: "Statuario",
+                url: "https://www.maacmarmi.it/marco/statuario-light.jpg",
+              },
+              {
+                name: "Calacatta Grey",
+                url: "https://www.maacmarmi.it/marco/calacatta-grey.jpg",
+              },
+            ],
+            default: 0,
+          },
+          {
+            name: "Finitura base",
+            material: "base",
+            channels: ["AlbedoPBR"],
+            type: "texture",
+            options: [
+              {
+                name: "Efetto cuoio",
+                url: "https://www.maacmarmi.it/marco/cuoio.jpg",
+              },
+              {
+                name: "Acciaio satinato ",
+                url: "https://www.maacmarmi.it/marco/acciaio_satinato.jpg",
+              },
+              {
+                name: "Grigio ",
+                url: "https://www.maacmarmi.it/marco/oro.jpg",
+              },
+            ],
+            default: 0,
+          },
+        ],
+      };
+      var iframeEl = document.getElementById("api-frame");
+      var optionsEl = document.querySelector(".options");
+      var configurator = new SketchfabConfigurator.Configurator(
+        iframeEl,
+        optionsEl,
+        config
+      );
+    </script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+.img-fluid.logo {
+	height: 50px;
+}
+.fa-bars{
+	font-size: 25px;
+}
+body {
+	min-height: 100vh;
+	/* overflow: hidden !important; */
+}
+.accordion-button:focus{
+	box-shadow: unset !important;
+	outline: unset !important;
+}
+.accordion-item{
+	background-color: transparent;
+}
+li .btn {
+	color: white;
+	padding: 15px 20px;
+	width: 100%;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+li .btn:hover, li .btn.active {
+	background-color: #515151 !important;
+	color: white !important;
+}
+.accordion-button{
+	background-color: transparent !important;
+	color: white !important;
+	padding: 15px 20px;
+	font-size: 20px;
+}
+.accordion-button::after {
+	flex-shrink: 0;
+	width: 15px;
+	height: 15px;
+	margin-left: auto;
+	content: "";
+	background-image: url("../img/down.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	transition: transform .2s ease-in-out;
+	background-position: right;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("../img/down.png");
+	transform: rotate(-180deg);
+}
+.accordion-button.active {
+	background-color: #515151 !important;
+}
+.mainBody{
+	min-height: 100vh;
+	background-color: #212529 !important;
+}
+iframe{
+	min-height: 100vh;
+}
+.text-success{
+	color: #212529 !important;
+}
+li .btn:hover .text-success, li .btn.active .text-success{
+	color: #64FFDA !important;
+}
+.btn:focus{
+	outline: unset !important;
+	box-shadow: unset !important;
+}
+.btn{
+	border-radius: 0 !important;
+}
+
+
+
+label {
+    display: block;
+    padding: 15px 20px;
+    color: white !important;
+}
+
+input[type=radio]{
+	display: none;
+}
+div.btn {
+    background: #515151;
+    color: white !important;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+label.texture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* i.fa.fa-check-circle.text-success {
+    color: #64FFDA !important;
+    font-size: 18px;
+} */
+
+
+label.texture:hover ,label.texture.active{
+	background-color: #515151 !important;
+}
+label.texture:hover i.text-success , label.texture.active i{
+	color: #64FFDA !important;
+}
+.options .option:nth-child(3) {
+    display: none;
+}
+.options .option:nth-child(4) {
+    display: none;
+}
+
+.option__control{
+	display: none;
+}
+.optionBtn{
+	background-image: url("../img/down.png") !important;
+	background-size: 15px !important;
+	background-position: 96% !important;
+	background-repeat: no-repeat !important;
+}
+
+.col-md-9.wider{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
