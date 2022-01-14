@@ -12,6 +12,17 @@ body {
 	box-shadow: unset !important;
 	outline: unset !important;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.col-md-3.px-0.bg-dark.pcMenu::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  ..col-md-3.px-0.bg-dark.pcMenu {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+
 .accordion-item{
 	background-color: transparent;
 }
@@ -208,6 +219,11 @@ label.texture:hover i.text-success , label.texture.active i{
 	display: none;
 }
 
+.col-md-3.px-0.bg-dark.pcMenu {
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+}
 
 
 @media screen and (max-width:767px){
@@ -311,5 +327,13 @@ label.texture:hover i.text-success , label.texture.active i{
 		max-height: 100vh;
 		height: 100vh;
 		min-height: 100vh;
+	}
+
+	.col-md-3.px-0.bg-dark.pcMenu {
+		height: auto;
+		overflow-y: unset;
+	}
+	.col-md-3.px-0.bg-dark.pcMenu {
+		padding-bottom: 0;
 	}
 }
