@@ -6,7 +6,7 @@
 }
 body {
 	min-height: 100vh;
-	/* overflow: hidden !important; */
+	overflow: hidden !important;
 }
 .accordion-button:focus{
 	box-shadow: unset !important;
@@ -130,4 +130,186 @@ label.texture:hover i.text-success , label.texture.active i{
 .col-md-9.wider{
 	flex: 0 0 100%;
 	max-width: 100%;
+}
+.img-holder {
+	height: 50px;
+	width: 100px;
+	background: #212529;
+	border-radius: 10px;
+}
+.one{
+	background-image: url("../img/calacatta-oro.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.two{
+	background-image: url("../img/aosta-green-marble.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.three{
+	background-image: url("../img/tyrol-stone.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.four{
+	background-image: url("../img/sahara-noir.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.five{
+	background-image: url("../img/onice-giada.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.six{
+	background-image: url("../img/travertino.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.seven{
+	background-image: url("../img/statuario-light.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.eight{
+	background-image: url("../img/calacatta-grey.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.nine{
+	background-image: url("../img/cuoio.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ten{
+	background-image: url("../img/acciaio_satinato.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.eleven{
+	background-image: url("../img/oro.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mobileMenu{
+	display: none;
+}
+
+
+
+@media screen and (max-width:767px){
+	/* .col-md-3.px-0.bg-dark {
+		display: flex !important;
+		width: 100%;
+		background: #515151;
+		justify-content: space-between;
+		align-items: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 999999;
+		padding: 0 10px;
+	} */
+
+	
+	.mobileMenu{
+		display: none !important;
+	}
+	iframe#api-frame {
+		min-height: 50vh;
+		max-height: 75vh;
+		height: 54vh;
+	}
+	.mobileMenu {
+		display: block;
+		position: relative;
+		top: 12px;
+	}
+	.option__control {
+		position: absolute;
+		top: -145px;
+		background: #515151;
+		width: 100%;
+		overflow-y: scroll !important;
+		height: 100vh;
+	}
+	body {
+		min-height: 100vh;
+		overflow: hidden !important;
+	}
+	.option__control {
+		position: absolute;
+		top: 0;
+		background: #515151;
+		width: 100%;
+		overflow-y: scroll !important;
+		height: 15vh;
+		display: flex !important;
+	}
+	/* .option__control .img-holder {
+		display: none;
+	} */
+	.btn-add{
+		display: none !important;
+	}
+	label.texture {
+		width: 160px;
+		max-width: 150px;
+		background: rgba(0,0,0,0.2);
+		border-right: 3px solid white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.option__control {
+		overflow: scroll !important;
+		max-width: 100%;
+		position: relative;
+		display: none !important;
+	}
+	.option__control {
+		overflow: scroll !important;
+		max-width: 100%;
+	}
+	.col-md-3.px-0.bg-dark.pcMenu {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	section.mainBody .container-fluid {
+		height: 100vh;
+	}
+	section.mainBody .container-fluid {
+		height: 100vh;
+	}
+	span.texture__name {
+		display: block;
+		text-align: center;
+	}
+	span.text-white.fs-5.fw-bold {
+		display: none;
+	}
+	.option__control.flx {
+		display: flex !important;
+	}
+	.col-md-9.p-0.wider iframe#api-frame {
+		max-height: 100vh;
+		height: 100vh;
+		min-height: 100vh;
+	}
 }
